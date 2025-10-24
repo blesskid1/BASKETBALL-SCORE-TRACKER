@@ -94,3 +94,51 @@
     color: rgba(9, 9, 71, 0.945);
    
 }
+@media screen and (max-width: 768px) {
+    #container {
+        margin: 20px;
+        height: 90vh;
+    }
+
+    #single-el {
+        margin: 20px;
+    }
+
+    #single-el h1 {
+        font-size: 40px;
+    }
+
+    #single-el span {
+        width: 130px;
+        height: 90px;
+        font-size: 70px;
+    }
+
+    #btn-style {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    #clean {
+        width: 130px;
+        height: 35px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #container {
+        margin: 10px;
+    }
+
+    #single-el h1 {
+        font-size: 30px;
+    }
+
+    #single-el span {
+        width: 100px;
+        height: 70px;
+        font-size: 50px;
+    }
+}
